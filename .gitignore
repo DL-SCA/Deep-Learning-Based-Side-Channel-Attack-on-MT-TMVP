@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Datasets (host externally, e.g., Zenodo)
+data/
+datasets/
+*.npz
+*.npy
+
+# Trained models (host externally)
+models/
+*.pth
+*.pt
+*.onnx
+
+# FPGA build artifacts
+*.bit
+*.bin
+*.ltx
+*.dcp
+*.xpr
+vivado_project/
+*.jou
+*.log
+*.str
+*.wdb
+*.wcfg
+
+# Vivado generated
+.Xil/
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+*.srcs/
+
+# IDE and OS
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Logs and temp
+*.log
+*.tmp
+*.bak
