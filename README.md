@@ -183,8 +183,8 @@ The full dataset is available at:
 
 It contains:
 
-| Item | Description |
-|---|---|---|
+| Item | Description
+|---|---
 | `dataset/traces/` | 59,049 `.npz` files (one per input combination) |
 | `dataset/inputs/` | Pre-generated f/g polynomials, labels, expected outputs |
 | `models/` | 10 trained `.pth` checkpoints (one per coefficient) |
