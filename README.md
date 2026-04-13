@@ -2,7 +2,7 @@
 
 This repository contains the artifact for the paper:
 
-> **Deep Learning-Based Side-Channel Attack on Modular Tiled Toeplitz Matrix-Vector Product for Post-Quantum Cryptography**
+> **Beyond the Blind Spot: Deep Learning-Based Side-Channel Attack on MT-TMVP in Post-Quantum Cryptography**
 >
 > Submitted to CHES 2026 (anonymous review).
 
@@ -101,7 +101,7 @@ The attack pipeline has three stages:
         └── tvla_report.md
 ```
 
-**Note on datasets.** The full trace dataset (59,049 traces, ~45 GB) and trained model checkpoints (~11 MB) are hosted separately. See the [Dataset](#dataset) section below.
+**Note on datasets.** The full trace dataset (59,049 traces) and trained model checkpoints are hosted separately. See the [Dataset](#dataset) section below.
 
 ---
 
@@ -185,9 +185,9 @@ It contains:
 
 | Item | Size | Description |
 |---|---|---|
-| `dataset/traces/` | ~45 GB | 59,049 `.npz` files (one per input combination) |
-| `dataset/inputs/` | ~250 MB | Pre-generated f/g polynomials, labels, expected outputs |
-| `models/` | ~11 MB | 10 trained `.pth` checkpoints (one per coefficient) |
+| `dataset/traces/` | 59,049 `.npz` files (one per input combination) |
+| `dataset/inputs/` | Pre-generated f/g polynomials, labels, expected outputs |
+| `models/` | 10 trained `.pth` checkpoints (one per coefficient) |
 
 Each `.npz` file stores:
 
