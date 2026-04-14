@@ -179,7 +179,7 @@ Open `results/tvla/tvla_report.md` for the full leakage assessment, including pe
 
 The full dataset is available at:
 
-> **[To be uploaded to Zenodo before camera-ready]**
+> https://zenodo.org/records/19561308
 
 It contains:
 
